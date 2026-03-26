@@ -42,9 +42,9 @@ const Hero = () => {
                 height: { xs: 280, md: 350 },
                 borderRadius: '50%',
                 objectFit: 'cover',
-                border: '5px solid',
-                borderColor: 'background.paper',
-                boxShadow: 3
+                border: '5px solid rgba(255, 255, 255, 0.1)',
+                boxShadow: '0 0 30px rgba(129, 199, 132, 0.3)',
+                animation: 'float 6s ease-in-out infinite'
               }}
             />
           </Grid>

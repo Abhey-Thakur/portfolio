@@ -35,7 +35,7 @@ const Hero = () => {
           <Grid item xs={12} md={6} order={{ xs: 1, md: 2 }} sx={{ display: 'flex', justifyContent: 'center' }}>
             <Box
               component="img"
-              src="/profile.jpg"
+              src={`${import.meta.env.BASE_URL}profile.jpg`}
               alt="Abhey Thakur"
               sx={{
                 width: { xs: 280, md: 350 },
